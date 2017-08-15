@@ -25,15 +25,12 @@ The Digispark is an Attiny85 based microcontroller development board similar to 
 
 1. First, get the drivers for the digispark and install DPinst64:
     - https://github.com/digistump/DigistumpArduino/releases
-
 2. Then in the Arduino IDE go to File->Prefrences->Additional Boards Manger URLs.
     - Additional Board Manager URL: http://digistump.com/package_digistump_index.json
-
 3. Next click on Tools in the Arduino IDE->Boards->**Boards Manager**.
     1. Where it says Type, you want to click the box and go to Contributed. 
     2. Now click anywhere on Digistump AVR Boards by Digistump.
     3. An install button should appear in the lower right corner for you to click. (This may take a bit to install)
-
 4. Once finished go back into Tools->Boards->Digispark(Default - 16.5mhz)
 
 5. While the Digispark is unplugged open DigicornV1.ino

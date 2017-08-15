@@ -3,11 +3,12 @@ Using the **DigiSpark** to "Unicorn" work colleague who don't lock their compute
 
 The Digispark is an Attiny85 based microcontroller development board similar to the Arduino line, only cheaper, smaller, and a bit less powerful.
 
-You can find these things for less than two dollars on some sites and even cheap when bought in bulk.
-http://digistump.com/products/1?id=1&sort=0&ex=USD
-
-http://a.co/bT8tFCX
-
+## Prerequisites
+1. Digispark
+    - You can find these things for less than two dollars on some sites and even cheap when bought in bulk.
+        * http://digistump.com/products/1?id=1&sort=0&ex=USD
+        * http://a.co/bT8tFCX
+2. Victim must have Outlook installed since that's how I programmed this script. 
 
 
 
@@ -38,7 +39,7 @@ https://youtu.be/fGmGBa-4cYQ
     1. Plug in your Digispark and wait till it says completed.
     2. Unplug the Digispark quickly or it will start to run the script on your system.
 
-8. Now you are read and can plug it into any system you want to unicorn.
+8. Now you are ready to plug the Digicorn into your victims system.
 
 ## Tips & Tricks
 

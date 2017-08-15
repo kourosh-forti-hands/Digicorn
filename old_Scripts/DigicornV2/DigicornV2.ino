@@ -60,7 +60,7 @@ void loop() {
   }
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   //DigiKeyboard.delay(1800);
-  DigiKeyboard.println("ndtptb@mail.missouri.edu");
+  DigiKeyboard.println("ENTER EMAIL HERE");
   DigiKeyboard.sendKeyStroke(KEY_TAB);
   DigiKeyboard.sendKeyStroke(KEY_TAB);
   DigiKeyboard.println("I Love Unicorns");

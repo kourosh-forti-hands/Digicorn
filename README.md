@@ -32,22 +32,21 @@ https://youtu.be/fGmGBa-4cYQ
 
 5. Once finished go back into Tools->Boards->Digispark(Default - 16.5mhz)
 
-6. Finally open File->Examples->DigisparkKeyboard
+6. While the Digispark is unplugged open DigicornV1.ino
+
+7. Finally Click upload and wait for it to compile you will be promted to plug in the device.
+    1. Plug in your Digispark and wait till it says completed.
+    2. Unplug the Digispark quickly or it will start to run the script on your system.
+
+8. Now you are read and can plug it into any system you want to unicorn.
+
+## Tips & Tricks
+
+The Digispark has a five second delay on start up to allow it to be programmed but this can be removed with a custom firmaware online. You will have to add a button or wire to the digispark to override this for programming, but I do like this idea for this solution.
+
 
 
 DigiKeyboard Source Code: https://github.com/digistump/DigisparkArduinoIntegration/blob/master/libraries/DigisparkKeyboard/DigiKeyboard.h
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

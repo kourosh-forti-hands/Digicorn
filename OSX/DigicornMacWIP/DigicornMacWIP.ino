@@ -22,18 +22,17 @@ void loop() {
   digitalWrite(1, LOW);                                    // Turns light off on pin 0 & 1
   
   DigiKeyboard.sendKeyStroke(0);                           // This is generally not necessary but with some older systems it seems to prevent missing the first character after a delay:
+  DigiKeyboard.delay(2000);
+  DigiKeyboard.sendKeyStroke(KEY_Q, MOD_GUI_LEFT);
+  DigiKeyboard.delay(2000); 
   DigiKeyboard.sendKeyStroke(KEY_SPACE, MOD_GUI_LEFT);     // Spotlight 
   DigiKeyboard.delay(2000);                                 // I have heard its not consistent to set a delay less than 800 but you could try
   DigiKeyboard.println("outlook");
   DigiKeyboard.sendKeyStroke(KEY_ENTER); // May not be needed
   DigiKeyboard.delay(2000);
-  
-  
   DigiKeyboard.sendKeyStroke(KEY_N, MOD_GUI_LEFT);    // Creating New Email
   DigiKeyboard.delay(2000);
-  DigiKeyboard.println("<Enter Email Here>");             // I send the email to our group email, but you can put anything here
-  DigiKeyboard.delay(20000);
-  DigiKeyboard.sendKeyStroke(KEY_TAB);
+  DigiKeyboard.println("EMAIL HERE");             // I send the email to our group email, but you can put anything here
   DigiKeyboard.delay(2000);
   DigiKeyboard.sendKeyStroke(KEY_TAB);
   DigiKeyboard.delay(2000);
@@ -46,7 +45,6 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER, MOD_GUI_LEFT);// FunFact: CTRL+Enter can send an email 
   DigiKeyboard.delay(2000);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);                  // Also sometimes it has a pop up so we hit enter just incase.
-
   digitalWrite(0, HIGH);                                  // Lights go on to tell me to run away 
   digitalWrite(1, HIGH);
   DigiKeyboard.delay(20000);                              // 20sec delay incase I dont get it unplugged but you could remove this and have it loop

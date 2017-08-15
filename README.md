@@ -19,30 +19,30 @@ The Digispark is an Attiny85 based microcontroller development board similar to 
 
 
 ## Setup
-Seytonic over on Youtube has an ecellent setup video and a bunch of other small projects:
 
-https://youtu.be/fGmGBa-4cYQ
+- Seytonic over on Youtube has an ecellent setup video and a bunch of other small projects:
+    * https://youtu.be/fGmGBa-4cYQ
 
-2. First, get the drivers for the digispark and install DPinst64:
+1. First, get the drivers for the digispark and install DPinst64:
     - https://github.com/digistump/DigistumpArduino/releases
 
-3. Then in the Arduino IDE go to File->Prefrences->Additional Boards Manger URLs.
+2. Then in the Arduino IDE go to File->Prefrences->Additional Boards Manger URLs.
     - Additional Board Manager URL: http://digistump.com/package_digistump_index.json
 
-4. Next click on Tools in the Arduino IDE. From there click on the Boards submenu(Under Wifi101 Updater) then **Boards Manager**.
+3. Next click on Tools in the Arduino IDE. From there click on the Boards submenu(Under Wifi101 Updater) then **Boards Manager**.
     1. Where it says Type you want to click the box and go to Contributed. 
     2. Now click on anywhere on Digistump AVR Boards by Digistump.
     3. An install button should appear in the lower right corner for you to click. (This may take a bit to install)
 
-5. Once finished go back into Tools->Boards->Digispark(Default - 16.5mhz)
+4. Once finished go back into Tools->Boards->Digispark(Default - 16.5mhz)
 
-6. While the Digispark is unplugged open DigicornV1.ino
+5. While the Digispark is unplugged open DigicornV1.ino
 
-7. Finally Click upload and wait for it to compile you will be promted to plug in the device.
+6. Finally Click upload and wait for it to compile you will be promted to plug in the device.
     1. Plug in your Digispark and wait till it says completed.
     2. Unplug the Digispark quickly or it will start to run the script on your system.
 
-8. Now you are ready to plug the Digicorn into your victims system.
+7. Now you are ready to plug the Digicorn into your victims system.
 
 ## Tips & Tricks
 

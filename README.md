@@ -15,7 +15,7 @@ The Digispark is an Attiny85 based microcontroller development board similar to 
 
 3. Victim must have Outlook installed since that's how I programmed this script. 
 
-4. Currently only works on Windows systems due to different key sets and combinations on Macs
+4. Currently works on Windows systems, but I am testing key combos on Macs too.
 
 
 

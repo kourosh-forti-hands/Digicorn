@@ -29,9 +29,9 @@ The Digispark is an Attiny85 based microcontroller development board similar to 
 2. Then in the Arduino IDE go to File->Prefrences->Additional Boards Manger URLs.
     - Additional Board Manager URL: http://digistump.com/package_digistump_index.json
 
-3. Next click on Tools in the Arduino IDE. From there click on the Boards submenu(Under Wifi101 Updater) then **Boards Manager**.
-    1. Where it says Type you want to click the box and go to Contributed. 
-    2. Now click on anywhere on Digistump AVR Boards by Digistump.
+3. Next click on Tools in the Arduino IDE->Boards->**Boards Manager**.
+    1. Where it says Type, you want to click the box and go to Contributed. 
+    2. Now click anywhere on Digistump AVR Boards by Digistump.
     3. An install button should appear in the lower right corner for you to click. (This may take a bit to install)
 
 4. Once finished go back into Tools->Boards->Digispark(Default - 16.5mhz)

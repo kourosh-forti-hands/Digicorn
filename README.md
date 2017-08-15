@@ -17,18 +17,18 @@ Seytonic over on Youtube has an ecellent setup video and a bunch of other small 
 https://youtu.be/fGmGBa-4cYQ
 
 1. First off you are going to want to make sure to have the Arduino IDE install:
-  - Download the arduino IDE: https://www.arduino.cc/en/Main/Software
+    - Download the arduino IDE: https://www.arduino.cc/en/Main/Software
 
 2. Next get the drivers for the digispark and install DPinst64:
-  - https://github.com/digistump/DigistumpArduino/releases
+    - https://github.com/digistump/DigistumpArduino/releases
 
 3. Then in the Arduino IDE go to File->Prefrences->Additional Boards Manger URLs.
-  - Additional Board Manager URL: http://digistump.com/package_digistump_index.json
+    - Additional Board Manager URL: http://digistump.com/package_digistump_index.json
 
 4. Next click on Tools in the Arduino IDE. From there click on the Boards submenu(Under Wifi101 Updater) then **Boards Manager**.
-  1. Where it says Type you want to click the box and go to Contributed. 
-  2. Now click on anywhere on Digistump AVR Boards by Digistump.
-  3. An install button should appear in the lower right corner for you to click. (This may take a bit to install)
+    1. Where it says Type you want to click the box and go to Contributed. 
+    2. Now click on anywhere on Digistump AVR Boards by Digistump.
+    3. An install button should appear in the lower right corner for you to click. (This may take a bit to install)
 
 5. Once finished go back into Tools->Boards->Digispark(Default - 16.5mhz)
 

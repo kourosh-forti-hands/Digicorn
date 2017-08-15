@@ -8,7 +8,13 @@ The Digispark is an Attiny85 based microcontroller development board similar to 
     - You can find these things for less than two dollars on some sites and even cheap when bought in bulk.
         * http://digistump.com/products/1?id=1&sort=0&ex=USD
         * http://a.co/bT8tFCX
-2. Victim must have Outlook installed since that's how I programmed this script. 
+
+3. Arduino IDE installed:
+    - Download the Arduino IDE here
+        * https://www.arduino.cc/en/Main/Software
+
+3. Victim must have Outlook installed since that's how I programmed this script. 
+
 
 
 
@@ -17,10 +23,7 @@ Seytonic over on Youtube has an ecellent setup video and a bunch of other small 
 
 https://youtu.be/fGmGBa-4cYQ
 
-1. First off you are going to want to make sure to have the Arduino IDE install:
-    - Download the arduino IDE: https://www.arduino.cc/en/Main/Software
-
-2. Next get the drivers for the digispark and install DPinst64:
+2. First, get the drivers for the digispark and install DPinst64:
     - https://github.com/digistump/DigistumpArduino/releases
 
 3. Then in the Arduino IDE go to File->Prefrences->Additional Boards Manger URLs.

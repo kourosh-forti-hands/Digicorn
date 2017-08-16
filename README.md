@@ -15,10 +15,6 @@ The Digispark is an Attiny85 based microcontroller development board similar to 
 
 3. Victim must have Outlook installed since that's how I programmed this script. 
 
-4. Currently works on Windows systems, but I am testing key combos on Macs too.
-
-
-
 
 ## Setup
 
@@ -45,6 +41,11 @@ The Digispark is an Attiny85 based microcontroller development board similar to 
     2. Unplug the Digispark quickly or it will start to run the script on your system.
 
 7. Now you are ready to plug the Digicorn into your victims system.
+
+## Multi OS Version
+
+In the testing folder you will find a version of Digicorn that requires a switch attached to pin 2. 
+![Digispark with switch](https://github.com/ntoenis/Digicorn/blob/master/Testing/Images/DigisparkMulti.jpg)
 
 ## Tips & Tricks
 
